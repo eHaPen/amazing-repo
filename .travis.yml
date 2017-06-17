@@ -1,2 +1,5 @@
 language: generic
 test: echo "Success"
+branches:
+  only:
+  - master
