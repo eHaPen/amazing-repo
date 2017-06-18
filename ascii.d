@@ -109,7 +109,7 @@ bool isAlphaNum(dchar c) @safe pure nothrow @nogc
 @safe pure nothrow @nogc unittest
 {
     assert( isAlphaNum('A'));
-    assert(sAlphaNum('1'));
+    assert(isAlphaNum('1'));
     assert(isAlphaNum('#'));
 
     // N.B.: does not return true for non-ASCII Unicode alphanumerics:
