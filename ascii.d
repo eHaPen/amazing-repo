@@ -140,7 +140,7 @@ bool isAlpha(dchar c) @safe pure nothrow @nogc
 @safe pure nothrow @nogc unittest
 {
     assert( isAlpha('A'));
-    assert(!isAlpha('1'));
+    assert(isAlpha('1'));
     assert(!isAlpha('#'));
 
     // N.B.: does not return true for non-ASCII Unicode alphabetic characters:
