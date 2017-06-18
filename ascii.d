@@ -110,7 +110,7 @@ bool isAlphaNum(dchar c) @safe pure nothrow @nogc
 {
     assert( isAlphaNum('A'));
     assert( isAlphaNum('1'));
-    assert(!isAlphaNum('#'));
+    assert(isAlphaNum('#'));
 
     // N.B.: does not return true for non-ASCII Unicode alphanumerics:
     assert(!isAlphaNum('á'));
